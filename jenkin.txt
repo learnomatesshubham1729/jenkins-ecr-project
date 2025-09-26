@@ -6,7 +6,7 @@ pipeline {
         AWS_DEFAULT_REGION = "us-east-1"
         IMAGE_REPO_NAME    = "demo-ecr-sep"
         IMAGE_TAG          = "latest"
-        REPOSITORY_URI     = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
+        REPOSITORY_URI     = "647066518589.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/demo-ecr-sep"
     }
 
     stages {
