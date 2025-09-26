@@ -23,9 +23,7 @@ pipeline {
 
         stage('Cloning Git') {
             steps {
-                git branch: 'master',
-                    credentialsId: 'ecr-push',
-                    url: 'https://github.com/learnomatesshubham1729/jenkins-ecr-project.git'
+                git branch: 'master', credentialsId: 'ecr-push', url: 'https://github.com/learnomatesshubham1729/jenkins-ecr-project.git'
             }
         }
 
